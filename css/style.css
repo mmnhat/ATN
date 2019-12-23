@@ -1,0 +1,94 @@
+body{
+    background-color: #35414f;
+}
+
+.container{
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.signin{
+    background-color: #edeef3;
+    padding: 20px;
+
+
+}
+.signin h1{
+    color: #69b0ac;
+    text-align: center;
+}
+.signin .input input
+{
+    width: 100% ;
+    background: #dce3de;
+    height: 35px;
+    border: none;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.signin .input
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.account{
+    background-color: #6b7a8f;
+    padding: 10px;
+    text-align: center;
+}
+.account a{
+    color: #c5d1e1;
+    text-decoration: none;
+}
+.account:hover{
+    background-color: grey;
+  
+}
+.account a:hover
+{
+    color: lavender;
+}
+ .buttons button
+ {
+     background-color: #32c6d2;
+     border: none;
+     padding: 10px;
+     color: white;
+ }
+ .buttons{
+     font-size: 13px;
+     margin-bottom: 20px;
+
+ }
+ .buttons .checkbox
+ {
+     margin-right: 10px;
+  
+ }
+.buttons .forgot
+{
+    margin-right: 10px;
+    
+}
+.buttons .forgot a
+{
+    text-decoration: none;
+}
+.network span.or
+{
+    margin-right: 10px;
+    font-size: 15px;
+    color: #8a8f95;
+    
+
+}
+.network .icon
+{
+    float: right;
+}
+.error_username{
+    font-size: 13px;
+    color: red;
+}
